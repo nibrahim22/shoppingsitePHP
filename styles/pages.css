@@ -1,0 +1,110 @@
+.banner ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C6EAF2;
+}
+
+.banner li {
+    float: left;
+    border-right: 1px solid white;
+    
+}
+
+.banner li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.banner li a img {
+    max-width: 40px;
+    max-height: 10px;
+    zoom: 150%
+}
+
+.banner li a:hover {
+    background-color: #45a049;
+    
+}
+
+
+#login-greeting {
+    text-align: center;
+}
+
+#testimonial {
+    margin: auto;
+    width: 50%;
+}
+
+body {
+    
+    background-color: #3DBCD4;
+    color: white;
+}
+
+/*ITEMS ON THE PAGE*/
+
+
+.product-item {
+    float: left;
+    background: #F0F0F0;
+    margin: 2%;
+    padding: 15px;
+}
+
+.product-item div{
+    text-align:center;
+    margin:10px;
+    color: black;
+    
+}
+.product-price {
+    color:#F08426;
+    
+}
+.product-image {
+    height:100px;
+    background-color:#FFF;
+    
+}
+
+.btnAddAction{
+    background-color:#79b946;
+    border:0;
+    padding:3px 10px;
+    color:#FFF;
+    margin-left:1px;
+    
+}
+
+footer {
+    margin-top: 500px;
+    text-align: center;
+}
+
+
+/*Snowflakes*/
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
